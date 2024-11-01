@@ -1,4 +1,4 @@
-from Wrapper import *
+from wrapper import *
 
 def main():
     request: Request = Request("https://www.google.com")
