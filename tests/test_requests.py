@@ -34,5 +34,5 @@ def test_is_active_mock_get_data_404(mocker):
     mocker.patch("src.wrapper.requests.get", return_value=mock_response)
 
     # テスト実行
-    url = "https://www.hogehuga.com"
+    url = "https://www.google.com"
     assert Request(url).get_data().status_code == 404
